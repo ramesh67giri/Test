@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.container__header {
+  width: 100%;
+  height: 60px;
+  padding: 1vw 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+
+
+
+.nav-link a {
+  color: black;
+  font-size: 2vw;
+}
+
+.nav-link:hover {
+  color: tomato;
+}
+
+span {
+  color: tomato;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+
+}
+
+
+ul,
+li {
+  list-style: none;
+}
+
+ul,
+li,
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2vw;
+  color: black;
+  transition: 0.15s ease-in;
+}
+
+
+
+
+
+.links :hover {
+  color: tomato;
+}
+
+.icon {
+  display: none;
+  font-size: 1.5vw;
+}
+
+.hire-me {
+  padding: 0.5vw 1vw;
+  background-color: tomato;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: 0.15s ease-in-out;
+}
+
+.hire-me:hover {
+  background-color: rgb(217, 79, 54);
+  color: rgb(255, 255, 255);
+}
+
+/* THIS IS A MAIN CONTERNT  */
+
+.container__main {
+  width: 100%;
+  height: calc(100% - 60px);
+  padding: 3vw 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10vw;
+  position: relative;
+}
+
+
+.left-side {
+  width: 50%;
+  height: 100%;
+}
+
+
+.left-side h1 {
+  font-size: 3.4vw;
+  font-weight: bold;
+  margin-bottom: 4vw;
+}
+
+.left-side p {
+  width: 40vw;
+  line-height: 2vw;
+  margin-bottom: 4vw;
+
+}
+
+.explor-btn {
+  padding: 0.9vw 2vw;
+  background-color: tomato;
+  border: none;
+  font-size: 1vw;
+  border-radius: 5px;
+  color: white;
+  transition: 0.15s ease-in-out;
+}
+
+.explor-btn:hover {
+  background-color: rgb(217, 79, 54);
+}
+
+.project-btn {
+  padding: 0.9vw 1.6vw;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 3vw;
+  transition: 0.15s ease-in;
+}
+
+.project-btn:hover {
+  background-color: rgb(90, 90, 90);
+}
+
+.right-side {
+  width: 50%;
+  height: 100%;
+}
+
+
+.right-side img {
+  height: 80%;
+  width: 80%;
+
+}
+
+
+.background {
+  margin-top: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2vw;
+}
+
+.icons i {
+  font-size: 3vw;
+  color: black;
+  transition: 0.15s ease-in;
+}
+
+.icons i:hover {
+  color: rgb(241, 49, 6);
+}
+
+
+.hero-img {
+  position: relative;
+}
+
+.skills {
+  position: absolute;
+  bottom: -5vw;
+  right: 5vw;
+}
+
+.skills img {
+  width: 10vw;
+}
+
+.skills-java {
+  position: absolute;
+  top: 0;
+}
+
+.skills-java img {
+  width: 10vw;
+}
+
+.skills-node {
+  position: absolute;
+  right: 0;
+  top: 3vw;
+}
+
+.skills-node img {
+  width: 10vw;
+}
+
+.skills-mysql img {
+  width: 10vw;
+}
+
+.skills-mysql {
+  position: absolute;
+  top: 20vw;
+}
+
+.vector-img img {
+  width: 70vw;
+}
+
+.vector-img {
+  position: absolute;
+  z-index: -1;
+  right: 0vw;
+  top: -10vw;
+}
+
+.vector-2 {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* THIS IS A ABOUT section */
+.section-about {
+  width: 100%;
+  padding: 1vw 6vw;
+  text-align: center;
+
+}
+
+.section-about h2 {
+  font-size: 3vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(217, 79, 54);
+}
+
+.outer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3vw;
+}
+
+
+.contact {
+  width: 100%;
+  padding: 5vw 6vw;
+
+}
+
+.top-title {
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+  height: 4vw;
+  text-align: center;
+  margin-bottom: 3vw;
+
+}
+
+.top-title h3 {
+  font-size: 2vw;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.p {
+  text-align: center;
+
+  text-align: center;
+
+}
+
+form {
+  text-align: center;
+}
+
+.label-tab {
+  font-size: 1.2vw;
+  margin-right: 25vw;
+}
+
+.input-tab {
+  padding: 0.2vw;
+  margin-bottom: 1vw;
+}
+
+.input-box {
+  border-radius: 0.3vw;
+  border: solid 1px;
+  width: 30vw;
+  margin-top: 1vw;
+  padding: 0.5vw 2vw;
+}
+
+.input-box-2 {
+  border-radius: 0.3vw;
+  border: solid 1px;
+  width: 30vw;
+  height: 9vw;
+  padding: 0.5vw 2vw;
+}
+
+.footer-section {
+
+  padding: 5vw 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2vw;
+}
+
+.footer-section {
+  height: 0.3vw;
+  width: 100%;
+  padding: 2vw 6vw;
+  margin-bottom: 4vw;
+  background-color: rgba(189, 75, 55, 0.808);
+  color: white;
+}

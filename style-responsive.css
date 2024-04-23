@@ -1,0 +1,140 @@
+/* RESPONSIVE */
+@media (max-width:600px) {
+  .nav-link a {
+    font-size: 5vw;
+    padding: 1vw 5vw;
+  }
+
+  .link,
+  .hire-me {
+    display: none;
+  }
+
+  .icon {
+    display: block;
+    font-size: 5vw;
+  }
+
+  /* THIS IS A MAIN */
+  .container__main {
+    flex-wrap: wrap;
+    padding: 5vw 6vw;
+  }
+
+  .left-side {
+    width: 100vw;
+  }
+
+  .left-side h1 {
+    font-size: 6vw;
+  }
+
+  .left-side p {
+    width: 100%;
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+
+  .explor-btn,
+  .project-btn {
+    font-size: 3vw;
+    padding: 3vw 9vw;
+  }
+
+  .right-side {
+    width: 100vw;
+  }
+
+  .right-side image {
+    width: 100%;
+    height: auto;
+    margin-inline: auto;
+    margin-left: 0px;
+  }
+
+
+
+  .icons i {
+    font-size: 9vw;
+    flex-wrap: wrap;
+  }
+
+  .skills img {
+    width: 20vw;
+  }
+
+  .skills-java img {
+    width: 30vw;
+  }
+
+  .skills-node img {
+    width: 30vw;
+  }
+
+  .skills-mysql {
+    top: 40vw;
+  }
+
+  .skills-mysql img {
+    width: 30vw;
+  }
+
+  .vector-img {
+    display: none;
+  }
+
+
+  .vector-2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  form {
+    margin-top: 20vw;
+    width: 100%;
+  }
+
+  .top-title h3 {
+    font-size: 5vw;
+    margin-bottom: 1vw;
+  }
+
+  .p {
+    margin-bottom: 3vw;
+  }
+
+  .label-tab {
+    font-size: 3vw;
+    margin-left: 6vw;
+  }
+
+  .footer-section {
+    width: 100%;
+    font-size: 4vw;
+  }
+
+}
+
+@media (min-width:600px)and (max-width:1024px) {
+  .left-side p {
+    width: 100%;
+    font-size: 2vw;
+    line-height: 2.5vw;
+  }
+
+  .label-tab {
+    font-size: 2vw;
+    margin-left: 6vw;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .footer-section {
+    width: 100%;
+    font-size: 2vw;
+  }
+}
